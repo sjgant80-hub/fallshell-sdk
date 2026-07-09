@@ -1,0 +1,24 @@
+{
+  "name": "@ai-native-solutions/fallshell-sdk",
+  "version": "1.0.0",
+  "description": "fallshell SDK · sovereign single-file library extracted from fallshell/index.html",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "files": ["src", "docs", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test test/",
+    "smoke": "node examples/smoke.js"
+  },
+  "keywords": ["fallshell", "sdk", "sovereign", "ai-native-solutions"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/fallshell-sdk.git"
+  },
+  "homepage": "https://sjgant80-hub.github.io/fallshell-sdk/",
+  "publishConfig": {
+    "access": "public"
+  }
+}
